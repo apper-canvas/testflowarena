@@ -3,8 +3,8 @@ import { motion } from 'framer-motion';
 import { toast } from 'react-toastify';
 import { useNavigate } from 'react-router-dom';
 import ApperIcon from '../components/ApperIcon';
-import Button from '@/components/atoms/Button';
-import Input from '@/components/atoms/Input';
+import Button from '../components/atoms/Button';
+import Input from '../components/atoms/Input';
 import questionService from '../services/api/questionService';
 
 const QuestionBankPage = () => {
