@@ -3,6 +3,7 @@ import { ToastContainer } from 'react-toastify'
 import 'react-toastify/dist/ReactToastify.css'
 import Home from './pages/Home'
 import NotFound from './pages/NotFound'
+import QuestionBankPage from './pages/QuestionBankPage'
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <div className="min-h-screen bg-surface-50 dark:bg-surface-900">
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/questions" element={<QuestionBankPage />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
         <ToastContainer

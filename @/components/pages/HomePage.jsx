@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { isToday, isTomorrow, format } from 'date-fns';
+import { useNavigate } from 'react-router-dom';
 import ApperIcon from '@/components/ApperIcon';
 import assessmentService from '@/services/api/assessmentService';
 import candidateService from '@/services/api/candidateService';
@@ -54,8 +55,13 @@ const HomePage = () => {
     const handleToggleDarkMode = () => {
         setDarkMode(prev => !prev);
     };
+const navigate = useNavigate();
 
     const handleTabChange = (tabId) => {
+        if (tabId === 'questions') {
+            navigate('/questions');
+            return;
+        }
         setActiveTab(tabId);
         setSelectedAssessment(null); // Reset selected assessment when changing tabs
     };
@@ -197,7 +203,7 @@ const HomePage = () => {
                         </motion.div>
                     )}
 
-                    {activeTab !== 'dashboard' && (
+{activeTab !== 'dashboard' && activeTab !== 'questions' && (
                         <motion.div
                             initial={{ opacity: 0, x: 20 }}
                             animate={{ opacity: 1, x: 0 }}
@@ -215,12 +221,44 @@ const HomePage = () => {
                             </div>
                         </motion.div>
                     )}
+
+                    {activeTab === 'questions' && (
+                        <motion.div
+                            initial={{ opacity: 0, x: 20 }}
+                            animate={{ opacity: 1, x: 0 }}
+                            transition={{ duration: 0.3 }}
+                        >
+                            <QuestionBankContent />
+</motion.div>
+                    )}
                 </main>
             </div>
         </div>
     );
 };
 
+// Placeholder component for Question Bank content within HomePage
+const QuestionBankContent = () => {
+    return (
+        <div className="bg-white dark:bg-surface-800 rounded-2xl shadow-card border border-surface-200 dark:border-surface-700 p-8">
+            <div className="text-center py-12">
+                <ApperIcon name="HelpCircle" size={64} className="text-primary mx-auto mb-4" />
+                <h3 className="text-xl font-semibold text-surface-900 dark:text-surface-100 mb-2">
+                    Question Bank
+                </h3>
+                <p className="text-surface-600 dark:text-surface-400 mb-4">
+                    Navigate to the dedicated Question Bank page for full functionality.
+                </p>
+                <button
+                    onClick={() => window.location.href = '/questions'}
+                    className="px-6 py-2 bg-primary text-white rounded-lg hover:bg-primary-dark transition-colors"
+                >
+                    Go to Question Bank
+                </button>
+            </div>
+        </div>
+    );
+};
 // New Organism/Template to replace the non-live-test parts of MainFeature
 const DashboardContent = ({ assessments, candidates, getDateLabel, getStatusColor, onStartAssessment, onCandidateUpdate }) => {
     const [activeView, setActiveView] = useState('calendar'); // This state was inside MainFeature

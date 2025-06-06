@@ -50,12 +50,81 @@ class QuestionService {
     }
     throw new Error('Question not found')
   }
-
-  async getByType(type) {
+async getByType(type) {
     await this.delay()
     return this.data
       .filter(question => question.type === type)
       .map(item => ({ ...item }))
+  }
+
+  async getByCategory(category) {
+    await this.delay()
+    return this.data
+      .filter(question => question.category === category)
+      .map(item => ({ ...item }))
+  }
+
+  async getByDifficulty(difficulty) {
+    await this.delay()
+    return this.data
+      .filter(question => question.difficulty === difficulty)
+      .map(item => ({ ...item }))
+  }
+
+  async search(searchTerm, filters = {}) {
+    await this.delay()
+    let filteredData = [...this.data]
+
+    // Apply text search
+    if (searchTerm) {
+      const term = searchTerm.toLowerCase()
+      filteredData = filteredData.filter(question =>
+        question.content.toLowerCase().includes(term) ||
+        (question.options && question.options.some(option => 
+          option.toLowerCase().includes(term)
+        ))
+      )
+    }
+
+    // Apply category filter
+    if (filters.category && filters.category !== 'all') {
+      filteredData = filteredData.filter(question => 
+        question.category === filters.category
+      )
+    }
+
+    // Apply difficulty filter
+    if (filters.difficulty && filters.difficulty !== 'all') {
+      filteredData = filteredData.filter(question => 
+        question.difficulty === filters.difficulty
+      )
+    }
+
+    // Apply type filter
+    if (filters.type && filters.type !== 'all') {
+      filteredData = filteredData.filter(question => 
+        question.type === filters.type
+      )
+    }
+
+    return filteredData.map(item => ({ ...item }))
+  }
+
+  async getCategories() {
+    await this.delay()
+    const categories = [...new Set(this.data.map(q => q.category))]
+    return categories.sort()
+  }
+
+  async getDifficulties() {
+    await this.delay()
+    return ['Easy', 'Medium', 'Hard']
+  }
+
+  async getTypes() {
+    await this.delay()
+    const types = [...new Set(this.data.map(q => q.type))]
+    return types.sort()
   }
 }
 

@@ -5,7 +5,9 @@
     "content": "What is the correct way to declare a variable in JavaScript?",
     "options": ["var myVar = 5;", "variable myVar = 5;", "v myVar = 5;", "declare myVar = 5;"],
     "correctAnswer": "var myVar = 5;",
-    "points": 2
+    "points": 2,
+    "category": "Coding",
+    "difficulty": "Easy"
   },
   {
     "id": "question_2",
@@ -13,14 +15,18 @@
     "content": "Which method is used to add an element to the end of an array?",
     "options": ["push()", "add()", "append()", "insert()"],
     "correctAnswer": "push()",
-    "points": 2
+    "points": 2,
+    "category": "Coding",
+    "difficulty": "Easy"
   },
   {
     "id": "question_3",
     "type": "text",
     "content": "Explain the difference between '==' and '===' operators in JavaScript.",
     "correctAnswer": "== compares values with type coercion, === compares values and types without coercion",
-    "points": 5
+    "points": 5,
+    "category": "Coding",
+    "difficulty": "Medium"
   },
   {
     "id": "question_4",
@@ -28,7 +34,9 @@
     "content": "Which data structure uses LIFO (Last In, First Out) principle?",
     "options": ["Queue", "Stack", "List", "Dictionary"],
     "correctAnswer": "Stack",
-    "points": 2
+    "points": 2,
+    "category": "Coding",
+    "difficulty": "Easy"
   },
   {
     "id": "question_5",
@@ -36,7 +44,9 @@
     "content": "What is the time complexity of accessing an element in a dictionary by key?",
     "options": ["O(1)", "O(n)", "O(log n)", "O(n²)"],
     "correctAnswer": "O(1)",
-    "points": 3
+    "points": 3,
+    "category": "Coding",
+    "difficulty": "Medium"
   },
   {
     "id": "question_6",
@@ -44,7 +54,9 @@
     "content": "What is a primary key in a database?",
     "options": ["A unique identifier for records", "The first column in a table", "A foreign key reference", "An index on the table"],
     "correctAnswer": "A unique identifier for records",
-    "points": 2
+    "points": 2,
+    "category": "Coding",
+    "difficulty": "Easy"
   },
   {
     "id": "question_7",
@@ -52,7 +64,9 @@
     "content": "Which CSS property is used to create a flexible layout?",
     "options": ["display: flex", "display: grid", "display: block", "display: inline"],
     "correctAnswer": "display: flex",
-    "points": 2
+    "points": 2,
+    "category": "Coding",
+    "difficulty": "Easy"
   },
   {
     "id": "question_8",
@@ -60,7 +74,9 @@
     "content": "What is overfitting in machine learning?",
     "options": ["Model performs well on training data but poorly on new data", "Model performs poorly on all data", "Model is too simple", "Model has too few parameters"],
     "correctAnswer": "Model performs well on training data but poorly on new data",
-    "points": 3
+    "points": 3,
+    "category": "Science",
+    "difficulty": "Medium"
   },
   {
     "id": "question_9",
@@ -68,7 +84,9 @@
     "content": "Which module is used for file operations in Node.js?",
     "options": ["fs", "path", "http", "url"],
     "correctAnswer": "fs",
-    "points": 2
+    "points": 2,
+    "category": "Coding",
+    "difficulty": "Easy"
   },
   {
     "id": "question_10",
@@ -76,41 +94,198 @@
     "content": "What is the purpose of Docker containers?",
     "options": ["Application isolation and portability", "Database management", "Code compilation", "Network security"],
     "correctAnswer": "Application isolation and portability",
-    "points": 3
+    "points": 3,
+    "category": "Coding",
+    "difficulty": "Medium"
   },
   {
     "id": "question_11",
     "type": "text",
     "content": "Describe your experience with React hooks and their benefits.",
     "correctAnswer": "",
-    "points": 10
+    "points": 10,
+    "category": "Coding",
+    "difficulty": "Hard"
   },
   {
     "id": "question_12",
     "type": "text",
     "content": "How would you optimize a React application for performance?",
     "correctAnswer": "",
-    "points": 10
+    "points": 10,
+    "category": "Coding",
+    "difficulty": "Hard"
   },
   {
     "id": "question_13",
     "type": "text",
     "content": "Walk me through your design process for a recent project.",
     "correctAnswer": "",
-    "points": 15
+    "points": 15,
+    "category": "Design",
+    "difficulty": "Hard"
   },
   {
     "id": "question_14",
     "type": "text",
     "content": "Design a database schema for an e-commerce platform. Include at least 4 tables with relationships.",
     "correctAnswer": "",
-    "points": 15
+    "points": 15,
+    "category": "Coding",
+    "difficulty": "Hard"
   },
   {
     "id": "question_15",
     "type": "text",
     "content": "How would you approach launching a new product in a competitive market?",
     "correctAnswer": "",
-    "points": 12
+    "points": 12,
+    "category": "Business",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "question_16",
+    "type": "multiple-choice",
+    "content": "What is the derivative of x² + 3x + 2?",
+    "options": ["2x + 3", "x² + 3", "2x + 2", "x + 3"],
+    "correctAnswer": "2x + 3",
+    "points": 3,
+    "category": "Math",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "question_17",
+    "type": "multiple-choice",
+    "content": "Solve for x: 2x + 5 = 15",
+    "options": ["5", "10", "7.5", "20"],
+    "correctAnswer": "5",
+    "points": 2,
+    "category": "Math",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "question_18",
+    "type": "multiple-choice",
+    "content": "What is the area of a circle with radius 4?",
+    "options": ["16π", "8π", "4π", "12π"],
+    "correctAnswer": "16π",
+    "points": 3,
+    "category": "Math",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "question_19",
+    "type": "text",
+    "content": "Prove that the sum of the first n natural numbers is n(n+1)/2.",
+    "correctAnswer": "",
+    "points": 10,
+    "category": "Math",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "question_20",
+    "type": "multiple-choice",
+    "content": "Which of the following is a synonym for 'ubiquitous'?",
+    "options": ["Rare", "Omnipresent", "Ancient", "Modern"],
+    "correctAnswer": "Omnipresent",
+    "points": 2,
+    "category": "English",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "question_21",
+    "type": "multiple-choice",
+    "content": "Identify the subject in the sentence: 'The quick brown fox jumps over the lazy dog.'",
+    "options": ["fox", "quick brown fox", "The quick brown fox", "jumps"],
+    "correctAnswer": "The quick brown fox",
+    "points": 2,
+    "category": "English",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "question_22",
+    "type": "text",
+    "content": "Write a paragraph analyzing the theme of ambition in Macbeth.",
+    "correctAnswer": "",
+    "points": 15,
+    "category": "English",
+    "difficulty": "Hard"
+  },
+  {
+    "id": "question_23",
+    "type": "multiple-choice",
+    "content": "What is Newton's second law of motion?",
+    "options": ["F = ma", "E = mc²", "v = u + at", "s = ut + ½at²"],
+    "correctAnswer": "F = ma",
+    "points": 2,
+    "category": "Science",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "question_24",
+    "type": "multiple-choice",
+    "content": "Which planet is closest to the Sun?",
+    "options": ["Venus", "Earth", "Mercury", "Mars"],
+    "correctAnswer": "Mercury",
+    "points": 1,
+    "category": "Science",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "question_25",
+    "type": "text",
+    "content": "Explain the process of photosynthesis and its importance to life on Earth.",
+    "correctAnswer": "",
+    "points": 8,
+    "category": "Science",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "question_26",
+    "type": "multiple-choice",
+    "content": "What is the primary goal of market segmentation?",
+    "options": ["Increase production costs", "Target specific customer groups", "Reduce product quality", "Eliminate competition"],
+    "correctAnswer": "Target specific customer groups",
+    "points": 3,
+    "category": "Business",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "question_27",
+    "type": "text",
+    "content": "Describe the key components of a business plan and their importance.",
+    "correctAnswer": "",
+    "points": 12,
+    "category": "Business",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "question_28",
+    "type": "multiple-choice",
+    "content": "Which design principle emphasizes visual hierarchy?",
+    "options": ["Contrast", "Repetition", "Alignment", "Proximity"],
+    "correctAnswer": "Contrast",
+    "points": 2,
+    "category": "Design",
+    "difficulty": "Easy"
+  },
+  {
+    "id": "question_29",
+    "type": "text",
+    "content": "Explain the difference between UX and UI design, providing examples.",
+    "correctAnswer": "",
+    "points": 10,
+    "category": "Design",
+    "difficulty": "Medium"
+  },
+  {
+    "id": "question_30",
+    "type": "multiple-choice",
+    "content": "What does RGB stand for in color theory?",
+    "options": ["Red Green Blue", "Really Good Brightness", "Relative Graphic Base", "Random Generated Blend"],
+    "correctAnswer": "Red Green Blue",
+    "points": 1,
+    "category": "Design",
+    "difficulty": "Easy"
   }
 ]
