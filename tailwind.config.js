@@ -30,6 +30,27 @@ export default {
           700: '#334155',
           800: '#1E293B',
           900: '#0F172A'
+},
+        border: {
+          DEFAULT: '#E2E8F0', // surface-200
+          light: '#F1F5F9',   // surface-100
+          dark: '#334155'     // surface-700
+        },
+        input: {
+          DEFAULT: '#F8FAFC', // surface-50
+          border: '#E2E8F0'   // surface-200
+        },
+        ring: {
+          DEFAULT: '#3B82F6', // primary
+          offset: '#FFFFFF'
+        },
+        background: {
+          DEFAULT: '#FFFFFF',
+          secondary: '#F8FAFC' // surface-50
+        },
+        foreground: {
+          DEFAULT: '#1E293B', // surface-800
+          muted: '#64748B'    // surface-500
         }
       },
       fontFamily: {

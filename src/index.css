@@ -4,7 +4,7 @@
 
 @layer base {
   * {
-    @apply border-border;
+    @apply border-surface-200 dark:border-surface-700;
   }
   body {
     font-size: 15px;
