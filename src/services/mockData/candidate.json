@@ -1,0 +1,203 @@
+[
+  {
+    "id": "candidate_1",
+    "name": "Sarah Johnson",
+    "email": "sarah.johnson@email.com",
+    "status": "completed",
+    "score": 87,
+    "assessments": [
+      {
+        "assessmentId": "assessment_1",
+        "completedAt": "2024-01-15T11:30:00.000Z",
+        "score": 87
+      }
+    ]
+  },
+  {
+    "id": "candidate_2",
+    "name": "Michael Chen",
+    "email": "michael.chen@email.com",
+    "status": "in-progress",
+    "score": null,
+    "assessments": [
+      {
+        "assessmentId": "assessment_2",
+        "scheduledAt": "2024-01-16T14:30:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "candidate_3",
+    "name": "Emily Rodriguez",
+    "email": "emily.rodriguez@email.com",
+    "status": "completed",
+    "score": 92,
+    "assessments": [
+      {
+        "assessmentId": "assessment_3",
+        "completedAt": "2024-01-17T09:45:00.000Z",
+        "score": 92
+      }
+    ]
+  },
+  {
+    "id": "candidate_4",
+    "name": "David Kim",
+    "email": "david.kim@email.com",
+    "status": "scheduled",
+    "score": null,
+    "assessments": [
+      {
+        "assessmentId": "assessment_4",
+        "scheduledAt": "2024-01-18T11:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "candidate_5",
+    "name": "Jessica Williams",
+    "email": "jessica.williams@email.com",
+    "status": "invited",
+    "score": null,
+    "assessments": [
+      {
+        "assessmentId": "assessment_5",
+        "invitedAt": "2024-01-14T09:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "candidate_6",
+    "name": "Robert Taylor",
+    "email": "robert.taylor@email.com",
+    "status": "scheduled",
+    "score": null,
+    "assessments": [
+      {
+        "assessmentId": "assessment_6",
+        "scheduledAt": "2024-01-20T15:30:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "candidate_7",
+    "name": "Amanda Lee",
+    "email": "amanda.lee@email.com",
+    "status": "completed",
+    "score": 78,
+    "assessments": [
+      {
+        "assessmentId": "assessment_7",
+        "completedAt": "2024-01-21T11:15:00.000Z",
+        "score": 78
+      }
+    ]
+  },
+  {
+    "id": "candidate_8",
+    "name": "Christopher Brown",
+    "email": "christopher.brown@email.com",
+    "status": "invited",
+    "score": null,
+    "assessments": [
+      {
+        "assessmentId": "assessment_8",
+        "invitedAt": "2024-01-15T14:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "candidate_9",
+    "name": "Lisa Anderson",
+    "email": "lisa.anderson@email.com",
+    "status": "scheduled",
+    "score": null,
+    "assessments": [
+      {
+        "assessmentId": "assessment_9",
+        "scheduledAt": "2024-01-23T14:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "candidate_10",
+    "name": "Matthew Wilson",
+    "email": "matthew.wilson@email.com",
+    "status": "in-progress",
+    "score": null,
+    "assessments": [
+      {
+        "assessmentId": "assessment_10",
+        "startedAt": "2024-01-24T11:30:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "candidate_11",
+    "name": "Rachel Davis",
+    "email": "rachel.davis@email.com",
+    "status": "completed",
+    "score": 95,
+    "assessments": [
+      {
+        "assessmentId": "assessment_11",
+        "completedAt": "2024-01-25T16:45:00.000Z",
+        "score": 95
+      }
+    ]
+  },
+  {
+    "id": "candidate_12",
+    "name": "James Miller",
+    "email": "james.miller@email.com",
+    "status": "scheduled",
+    "score": null,
+    "assessments": [
+      {
+        "assessmentId": "assessment_12",
+        "scheduledAt": "2024-01-26T10:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "candidate_13",
+    "name": "Nicole Garcia",
+    "email": "nicole.garcia@email.com",
+    "status": "completed",
+    "score": 84,
+    "assessments": [
+      {
+        "assessmentId": "assessment_1",
+        "completedAt": "2024-01-15T12:00:00.000Z",
+        "score": 84
+      }
+    ]
+  },
+  {
+    "id": "candidate_14",
+    "name": "Kevin Thompson",
+    "email": "kevin.thompson@email.com",
+    "status": "invited",
+    "score": null,
+    "assessments": [
+      {
+        "assessmentId": "assessment_3",
+        "invitedAt": "2024-01-16T10:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": "candidate_15",
+    "name": "Stephanie White",
+    "email": "stephanie.white@email.com",
+    "status": "completed",
+    "score": 91,
+    "assessments": [
+      {
+        "assessmentId": "assessment_7",
+        "completedAt": "2024-01-21T12:30:00.000Z",
+        "score": 91
+      }
+    ]
+  }
+]

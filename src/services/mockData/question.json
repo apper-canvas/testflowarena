@@ -1,0 +1,116 @@
+[
+  {
+    "id": "question_1",
+    "type": "multiple-choice",
+    "content": "What is the correct way to declare a variable in JavaScript?",
+    "options": ["var myVar = 5;", "variable myVar = 5;", "v myVar = 5;", "declare myVar = 5;"],
+    "correctAnswer": "var myVar = 5;",
+    "points": 2
+  },
+  {
+    "id": "question_2",
+    "type": "multiple-choice",
+    "content": "Which method is used to add an element to the end of an array?",
+    "options": ["push()", "add()", "append()", "insert()"],
+    "correctAnswer": "push()",
+    "points": 2
+  },
+  {
+    "id": "question_3",
+    "type": "text",
+    "content": "Explain the difference between '==' and '===' operators in JavaScript.",
+    "correctAnswer": "== compares values with type coercion, === compares values and types without coercion",
+    "points": 5
+  },
+  {
+    "id": "question_4",
+    "type": "multiple-choice",
+    "content": "Which data structure uses LIFO (Last In, First Out) principle?",
+    "options": ["Queue", "Stack", "List", "Dictionary"],
+    "correctAnswer": "Stack",
+    "points": 2
+  },
+  {
+    "id": "question_5",
+    "type": "multiple-choice",
+    "content": "What is the time complexity of accessing an element in a dictionary by key?",
+    "options": ["O(1)", "O(n)", "O(log n)", "O(n²)"],
+    "correctAnswer": "O(1)",
+    "points": 3
+  },
+  {
+    "id": "question_6",
+    "type": "multiple-choice",
+    "content": "What is a primary key in a database?",
+    "options": ["A unique identifier for records", "The first column in a table", "A foreign key reference", "An index on the table"],
+    "correctAnswer": "A unique identifier for records",
+    "points": 2
+  },
+  {
+    "id": "question_7",
+    "type": "multiple-choice",
+    "content": "Which CSS property is used to create a flexible layout?",
+    "options": ["display: flex", "display: grid", "display: block", "display: inline"],
+    "correctAnswer": "display: flex",
+    "points": 2
+  },
+  {
+    "id": "question_8",
+    "type": "multiple-choice",
+    "content": "What is overfitting in machine learning?",
+    "options": ["Model performs well on training data but poorly on new data", "Model performs poorly on all data", "Model is too simple", "Model has too few parameters"],
+    "correctAnswer": "Model performs well on training data but poorly on new data",
+    "points": 3
+  },
+  {
+    "id": "question_9",
+    "type": "multiple-choice",
+    "content": "Which module is used for file operations in Node.js?",
+    "options": ["fs", "path", "http", "url"],
+    "correctAnswer": "fs",
+    "points": 2
+  },
+  {
+    "id": "question_10",
+    "type": "multiple-choice",
+    "content": "What is the purpose of Docker containers?",
+    "options": ["Application isolation and portability", "Database management", "Code compilation", "Network security"],
+    "correctAnswer": "Application isolation and portability",
+    "points": 3
+  },
+  {
+    "id": "question_11",
+    "type": "text",
+    "content": "Describe your experience with React hooks and their benefits.",
+    "correctAnswer": "",
+    "points": 10
+  },
+  {
+    "id": "question_12",
+    "type": "text",
+    "content": "How would you optimize a React application for performance?",
+    "correctAnswer": "",
+    "points": 10
+  },
+  {
+    "id": "question_13",
+    "type": "text",
+    "content": "Walk me through your design process for a recent project.",
+    "correctAnswer": "",
+    "points": 15
+  },
+  {
+    "id": "question_14",
+    "type": "text",
+    "content": "Design a database schema for an e-commerce platform. Include at least 4 tables with relationships.",
+    "correctAnswer": "",
+    "points": 15
+  },
+  {
+    "id": "question_15",
+    "type": "text",
+    "content": "How would you approach launching a new product in a competitive market?",
+    "correctAnswer": "",
+    "points": 12
+  }
+]
